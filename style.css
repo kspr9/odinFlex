@@ -94,6 +94,7 @@ header, footer, .hero {
 .hero-main-subtext, .nav__link, footer {
     font-size: 18px;
     color: var(--white);
+
     
 }
 
@@ -123,14 +124,10 @@ header, footer, .hero {
 }
 .header-80 {
     display: flex;
+    justify-content: center;
+    max-width: 1800px;
 }
 
-.header-80 div {
-}
-
-.nav {
-
-}
 
 .header-logo {
     margin-left: 10vw;
@@ -152,17 +149,17 @@ header, footer, .hero {
 }
 
 
-
-
-
 .nav__links li {
     justify-content: start-end;
 }
 
+
+/* Hero section */
 .hero-80 {
     display: flex;
     justify-content: space-around;
-    flex-grow: 2;
+    flex-grow: 2;    
+    max-width: 1600px;
 }
 
 .hero-left {
@@ -173,9 +170,15 @@ header, footer, .hero {
     display: inline-block;
 }
 
+.hero-main-subtext {
+    padding-bottom: 15px;
+}
+
 img {
     zoom: 100%;
 }
+
+/* second -- blue boxes  */
 
 .header-second {
     text-align: center;
@@ -183,7 +186,7 @@ img {
 }
 
 .blue-box {
-    border: 4px solid var(--blue);
+    border: 5px solid var(--blue);
     height: 10em;
     width: 10em;
     border-radius: 10px;
@@ -205,10 +208,17 @@ img {
     width: 10em;
 }
 
+.blue-box-text {
+    padding-top: 7px;
+}
+
+
+/*  third -- quote   */
 .third-80 {
     
     width: 60vw;
-    max-width: 80vw;
+    max-width: 1200px;
+    min-width: 800px;
     margin: auto;
     margin-top: 12vh;
     margin-bottom: 8vh; 
@@ -219,10 +229,14 @@ img {
     text-align: right;
 }
 
+
+/*  fourth -- call to action  */
 .blue-cta-box {
     display: flex;
     justify-content: center;
-    max-width: 70%;
+    width: 70%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .bottom-button {
@@ -233,6 +247,13 @@ img {
     padding-left: 50px;
 }
 
+
+/*  footer   */
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 /**********************************/
 /*         element styling        */
 /**********************************/
